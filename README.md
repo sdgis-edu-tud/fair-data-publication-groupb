@@ -25,43 +25,32 @@
 # 1. GENERAL INFORMATION
 
 ## 1.1 Title of Dataset
-Insert title here
+Urban Stream Restoration: building a more resilient urban environmental system - Case of Poznań, Poland.
 
 ## 1.2 Dataset description
-This dataset contains qualitative and/or quantitative data on ... Context for the research project... Additional details about the project can be accessed [here](https://...).
+In this course, we explored urban stream restoration in Poznań, Poland, using two primary methodological approaches: Multi-Criteria Decision Analysis (MCDA) and Typology Construction. For each method, we identified relevant objectives and formulated research questions tailored to the respective analytical framework.
+Additional details about the project can be accessed [here](https://...).
 
 ## 1.3 Author Information
-A. Principal Investigator  
-- Name: 
-- Institution: 
-- Address: 
-- Email: 
-
-B. Associate or Co-investigator
-- Name: 
-- Institution: 
-- Address: 
-- Email:
-
-C. Associated study personnel 
-- ...
-- ...
+A. Principal Investigators 
+- Name: Stepan Prikazchikov, Roger Marin de Yzaguirre, Yaying Hao, Jaee Naik 
+- Institution: TU Delft Faculty of Architecture & the Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
 
 ## 1.4 Dates of data collection
-- Survey 1: YYYY-MM-DD
-- Survey 2: YYYY-MM-DD
+- Survey : 2025-05-01
 
 ## 1.5 Geographic location of data collection
-...
+Delft, Netherlands
 
 ## 1.6 Keywords
-..., ..., ...
+Urban Stream Restoration ,Urban rivers, River integration
 
 ## 1.7 Language
-...
+English
 
 ## 1.8 Information about funding sources that supported the collection of the data
-This research project was funded by...
+-NA-
 
 # 2. METHODOLOGICAL INFORMATION
 ## 2.1 Research questions, methods and envisioned uses
