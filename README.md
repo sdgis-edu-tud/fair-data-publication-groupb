@@ -61,22 +61,41 @@ Method 1: MCDA- In the case of MCDA, the selection of criteria and the rationale
 
 Method 2: Typology Construction- In this method we introduce the objective of generating meaningful clusters that categorize spatial units adopted from MCDA based on shared characteristics. In the context of stream restoration in Poznań, a specific research question is formulated to align with this methodological approach. To address this question, a set of variables is selected, and the rationale behind the selection of these variables is grounded in both theoretical relevance and practical applicability to the local context.
 
+We employed Multi-Criteria Decision Analysis (MCDA) as a structured framework to evaluate spatial units based on their potential to address three core objectives: **enriching biodiversity, promoting climate adaptation, and improving quality of life**. 
 
-### 2.1.1 Research question 1: ...?
-- Instrument 1 (quan/qual)
-- Instrument 2 (quan/qual)
+Each of these objectives corresponds to a specific research question that guides the analysis toward actionable insights for stream restoration. A critical step in applying MCDA lies in the careful selection and weighting of evaluation criteria. These weights reflect the relative importance of each criterion in relation to the research question at hand and directly influence the spatial prioritization outcomes. Therefore, understanding how we assign these weights—whether based on theoretical frameworks, empirical evidence, stakeholder input, or expert judgment—is essential for ensuring both methodological transparency and contextual relevance. 
+This paper explores the logic behind such weight assignment, arguing that the formulation of the research question should guide both the selection of indicators and the emphasis placed on them.
 
-### 2.1.2 Research question 2: ...?
-- Instrument 1 (quan/qual)
-- Instrument 2 (quan/qual)
+### 2.1.1 Research questions (MCDA): 
+1. **Enriching biodiversity**- Which areas have a good base for implementing nature-based restoration solutions that nurture better biodiversity?
+2. **Promoting climate adaptation**- Which areas are most in need of interventions to promote climate adaptation?
+3. **Improving quality of life**- Which areas are most suitable for neighborhood-oriented interventions that improve the quality of life of local residents?
+
+### 2.1.2 Research questions (Typology Construction): 
+1. **Necessity for Restoration Intervention-** Which locations are in need of intervention?
+2. **Possibility for Restoration Intervention-** Which locations are ready for intervention?
 
 ### 2.1.3 Envisioned uses of the dataset
 - ...
-- ...
+
 
 ## 2.2 Methods for processing the data
-- ...
-- ...
+**Deciding the Spatial Unit of Analysis: Why Hexagon Grid and What are the Parameters?**
+For the spatial analysis, the study area was subdivided using a hexagonal grid, which served as the primary unit of analysis. The choice of hexagons was narrowed down by several methodological advantages. First, hexagonal cells maintain equal distance to all neighboring cells, which supports reduces directional bias in spatial calculations. Second, the use of hexagons helps to minimize edge effects that commonly arise in grid-based spatial analysis, thereby ensuring more consistent and accurate representation of spatial phenomena. 
+
+The size of the hexagonal cells was determined through a balance between spatial resolution and computational feasibility. A diameter of 500 meters was selected, corresponding approximately to a 5–10 minute walking distance. This resolution also provides a reasonable number of spatial units across the city. 
+
+**MCDA Methodology and Indicators-**
+Multi-Criteria Decision Analysis (MCDA) is a subfield of operations research that systematically evaluates multiple, often conflicting, criteria in the decision-making process. The application of the MCDA methodology begins with the formulation of a primary goal. This overarching goal is then decomposed into specific objectives, each of which is translated into a research question. For each research question, a set of criteria is identified to assess various dimensions relevant to the objective. These criteria are subsequently assigned weights to reflect their relative importance in influencing the overall outcome.\
+
+The evaluation culminates in the development of a synthetic map for each research question, which integrates the weighted criteria into a comprehensive spatial representation. These maps serve as analytical tools that encapsulate the combined perspectives of multiple stakeholders, thereby supporting informed and balanced decision-making.\
+
+In the context of our study on urban stream restoration in Poznań, the principal objective is to enhance the resilience of the urban environmental system. In this study, resilience is conceptualized through three key dimensions: **Enhancing Biodiversity**, **Promoting Climate Adaptation** and **Improving Quality of Life**. Each of these dimensions is formulated as a distinct research question
+
+  **MCDA Indicators and Argumentation**- 
+  
+
+
 
 ## 2.3 Instrument- or software-specific information
 - Software version X.X was used for ...
