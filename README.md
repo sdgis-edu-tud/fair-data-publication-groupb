@@ -54,7 +54,13 @@ English
 
 # 2. METHODOLOGICAL INFORMATION
 ## 2.1 Research questions, methods and envisioned uses
-Insert brief overarching summary of methods...
+The report uses two primary methodological approaches: Multi-Criteria Decision Analysis (MCDA) and Typology Construction. 
+For each method, relevant objectives were identified and research questions were formulated and tailored.
+
+Method 1: MCDA- In the case of MCDA, the selection of criteria and the rationale behind their inclusion will be detailed in the Methods section.
+
+Method 2: Typology Construction- In this method we introduce the objective of generating meaningful clusters that categorize spatial units adopted from MCDA based on shared characteristics. In the context of stream restoration in Poznań, a specific research question is formulated to align with this methodological approach. To address this question, a set of variables is selected, and the rationale behind the selection of these variables is grounded in both theoretical relevance and practical applicability to the local context.
+
 
 ### 2.1.1 Research question 1: ...?
 - Instrument 1 (quan/qual)
