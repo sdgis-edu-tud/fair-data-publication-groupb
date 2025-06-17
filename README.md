@@ -44,7 +44,7 @@ A. Principal Investigators
 Delft, Netherlands
 
 ## 1.6 Keywords
-Urban Stream Restoration ,Urban rivers, River integration
+Urban Stream Restoration, Urban rivers, River integration
 
 ## 1.7 Language
 English
@@ -67,17 +67,13 @@ Each of these objectives corresponds to a specific research question that guides
 This paper explores the logic behind such weight assignment, arguing that the formulation of the research question should guide both the selection of indicators and the emphasis placed on them.
 
 ### 2.1.1 Research questions (MCDA): 
-1. **Enriching biodiversity**- Which areas have a good base for implementing nature-based restoration solutions that nurture better biodiversity?
-2. **Promoting climate adaptation**- Which areas are most in need of interventions to promote climate adaptation?
-3. **Improving quality of life**- Which areas are most suitable for neighborhood-oriented interventions that improve the quality of life of local residents?
+Which areas which are most in need of intervention through integrated interventions that enhance biodiversity, support climate adaptation, and improve neighborhood quality of life?
 
 ### 2.1.2 Research questions (Typology Construction): 
-1. **Necessity for Restoration Intervention-** Which locations are in need of intervention?
-2. **Possibility for Restoration Intervention-** Which locations are ready for intervention?
+Which locations both need and are ready for restoration interventions to maximize impact and feasibility?
 
 ### 2.1.3 Envisioned uses of the dataset
-- ...
-
+The dataset will serve as a decision support tool for future restoration and planning interventions along the river in Poznań by identifying priority zones where stream restoration solutions can have the greatest impact.
 
 ## 2.2 Methods for processing the data
 **Deciding the Spatial Unit of Analysis: Why Hexagon Grid and What are the Parameters?**
@@ -92,16 +88,13 @@ The evaluation culminates in the development of a synthetic map for each researc
 
 In the context of our study on urban stream restoration in Poznań, the principal objective is to enhance the resilience of the urban environmental system. In this study, resilience is conceptualized through three key dimensions: **Enhancing Biodiversity**, **Promoting Climate Adaptation** and **Improving Quality of Life**. Each of these dimensions is formulated as a distinct research question
 
-  **MCDA Indicators and Argumentation**- 
-  
-
-
 
 ## 2.3 Instrument- or software-specific information
-- Software version X.X was used for ...
+QGIS was used to map and analyze spatial datasets
+RStudio was employed to collate, visualize the report findings
 
 # 3. FILE OVERVIEW
-Are there multiple versions of the dataset? Yes/No
+No
 
 ## 3.1 File List
 
@@ -111,11 +104,6 @@ Are there multiple versions of the dataset? Yes/No
 ### 3.1.2 Data category B
 - "filename.extension": brief description of file
 
-### 3.1.3 Data category C
-- "filename.extension": brief description of file
-
-### 3.1.4 Data category D
-- "filename.extension": brief description of file
 
 ## 3.2 Relationship between files:
 The following tables (csv files) employ a foreign key to refer to the primary key (unique identifier) in one or more other table(s):
