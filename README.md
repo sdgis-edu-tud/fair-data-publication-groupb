@@ -76,11 +76,11 @@ Address: Julianalaan 134, 2628 BZ Delft
 Email: Y.Wu-13@tudelft.nl
 
 ## 1.4 Dates of data collection
--Primary data processing: May 2025 to June 2025
--OSM Data Sources: Latest available as of May 2025
--NDVI satellite data, Flooding Data: May 2025 [Copernicus](https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-2) 
--Population Date: May 2024 [WorldPop Hub](https://hub.worldpop.org/)
--Landcover Data: May 2025 [ESA-Worldcover](https://esa-worldcover.org/en)
+- Primary data processing: May 2025 to June 2025
+- OSM Data Sources: Latest available as of May 2025
+- NDVI satellite data, Flooding Data: May 2025 [Copernicus](https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-2) 
+- Population Date: May 2024 [WorldPop Hub](https://hub.worldpop.org/)
+- Landcover Data: May 2025 [ESA-Worldcover](https://esa-worldcover.org/en)
 
 ## 1.5 Geographic location of data collection
 Poznań, Poland
