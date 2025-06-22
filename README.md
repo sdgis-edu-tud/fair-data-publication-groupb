@@ -111,7 +111,7 @@ This paper explores the logic behind such weight assignment, arguing that the fo
 ### 2.1.1 Research questions (MCDA): 
 Which areas are most in need of intervention through integrated interventions that enhance biodiversity, support climate adaptation, and improve neighborhood quality of life?
 
-**Subresearch Question:**
+**Research Sub-Question:**
 * Which areas have a low ecological value and are in need of restoration to enrich the biodiversity? (Enrich Biodiversity)  
 - Which areas are most in need of interventions to promote climate adaptation? (Promote Climate Adaptation)  
 + Which areas are most in need of neighborhood-oriented interventions that improve the quality of life of local residents? (Improve Quality of Life)  
