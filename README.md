@@ -109,12 +109,12 @@ Each of these objectives corresponds to a specific research question that guides
 This paper explores the logic behind such weight assignment, arguing that the formulation of the research question should guide both the selection of indicators and the emphasis placed on them.
 
 ### 2.1.1 Research questions (MCDA): 
-Which areas are most in need of intervention through integrated interventions that enhance biodiversity, support climate adaptation, and improve neighborhood quality of life?  
- **Subresearch Question:**  
-  * Which areas have a low ecological value and are in need of restoration to enrich the biodiversity?  
-  - Which areas are most in need of interventions to promote climate adaptation?  
-  + Which areas are most in need of neighborhood-oriented interventions that improve the quality of life of local residents?
+Which areas are most in need of intervention through integrated interventions that enhance biodiversity, support climate adaptation, and improve neighborhood quality of life?
 
+**Subresearch Question:**
+* Which areas have a low ecological value and are in need of restoration to enrich the biodiversity? (Enrich Biodiversity)  
+- Which areas are most in need of interventions to promote climate adaptation? (Promote Climate Adaptation)  
++ Which areas are most in need of neighborhood-oriented interventions that improve the quality of life of local residents? (Improve Quality of Life)  
 
 ### 2.1.2 Research questions (Typology Construction): 
 Which locations both need and are ready for restoration interventions to maximize impact and feasibility?
@@ -122,6 +122,14 @@ Which locations both need and are ready for restoration interventions to maximiz
 ### 2.1.3 Envisioned uses of the dataset
 The dataset will serve as a decision support tool for future restoration and planning interventions along the river in Poznań by identifying priority zones where stream restoration solutions can have the greatest impact.
 
+**Envisioned Uses of the Dataset:**
+- Integrated spatial planning   
+- Supporting environmental monitoring and impact analysis over time  
+- Assisting local governments in making data-driven decisions for environmental improvements  
+- Informing the design of green infrastructure and climate adaptation strategies  
+- Supporting community engagement through transparent, data-informed planning  
+- Academic research
+  
 ## 2.2 Methods for processing the data
 **Deciding the Spatial Unit of Analysis: Why Hexagon Grid and What are the Parameters?**
 For the spatial analysis, the study area was subdivided using a hexagonal grid, which served as the primary unit of analysis. The choice of hexagons was narrowed down by several methodological advantages. First, hexagonal cells maintain equal distance to all neighboring cells, which supports reduces directional bias in spatial calculations. Second, the use of hexagons helps to minimize edge effects that commonly arise in grid-based spatial analysis, thereby ensuring more consistent and accurate representation of spatial phenomena. 
@@ -137,68 +145,58 @@ In the context of our study on urban stream restoration in Poznań, the principa
 
 
 ## 2.3 Instrument- or software-specific information
-QGIS was used to map and analyze spatial datasets
-RStudio was employed to collate, visualize the report findings
+-  QGIS was used to map and analyze spatial datasets (version 3.34.12)
+-  RStudio was employed to collate, visualize the report findings (4.5.0)
+-  Copernicus satellite data for NDVI calculations
 
 # 3. FILE OVERVIEW
-No
+Single versions of the dataset.
 
 ## 3.1 File List
 
-### 3.1.1 Data category A
-- "filename.extension": brief description of file
-
-### 3.1.2 Data category B
-- "filename.extension": brief description of file
-
+### 3.1.1 Primary Data
+- "(update file name)": Geopackage containing 500m hexagonal grid with all Normalized Data on Biodiversity, Climate Adaptation & Quality of Life metrics
 
 ## 3.2 Relationship between files:
-The following tables (csv files) employ a foreign key to refer to the primary key (unique identifier) in one or more other table(s):
-
-"filename.extension"
-- abc used as foreign key to "otherfile.extension"
+The geopackage contains a single spatial layer with all metrics as attributes.
 
 ## 3.3 File formats and naming conventions
 ### 3.3.1 File formats
-- extension - type of data
+.gpkg - Geopackage format containing spatial grid data with attribute table
 
 ### 3.3.2 Naming conventions
 - files named lower case, spaces replaced with dashes (dash-case)
-- in tabular data, variable names snake case
+- Variable names use descriptive prefixes
 
 # 4. DATA-SPECIFIC INFORMATION
 
 - Missing data code: NA
 - Not Applicable: N/A
 
-## 4.1 Data Category A
+## 4.1 Enriching Biodiversity Metrics
 
-### 4.1.1 filename.extension
-1. Number of variables: 
+### 4.1.1 EB_aggregated.gpkg
+Number of variables: 5
 
-2. Number of cases/rows: 
 
-3. Variable List:
+_Variable List:_
 
-"variable_name"
-- Full name: 
-- Description: 
-- Type of variable: 
-- Unit of measurement:
-- Number of missing values: 
+"fid"
+- Full name: Grid Cell Identifier
+- Description: Unique identifier for each 500m hexagonal grid cell
+- Type of variable: Integer
+- Unit of measurement: ID number
 
-4. Specialised formats or other abbreviations used: 
+4. Specialised formats or other abbreviations used: N/A
 
-5. Total file size: 
+5. Total file size: 344 KB
 
-## 4.2 Data Category B
+## 4.2 Promote Climate Adaptation
 ...
 
-## 4.3 Data Category C
+## 4.3 Improve Quality of Life
 ...
 
-## 4.4 Data Category D
-...
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:
