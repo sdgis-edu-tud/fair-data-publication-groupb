@@ -32,23 +32,61 @@ The research project was carried out as part of the MSc Urbanism elective course
 
 In this course, we explored urban stream restoration in Poznań, Poland, using two primary methodological approaches: Multi-Criteria Decision Analysis (MCDA) and Typology Construction. For each method, we identified relevant objectives and formulated research questions tailored to the respective analytical framework. This dataset contains quantitative spatial data on biodiversity, quality of life, and climate adaptation metrics for Poznań, organised in a 500m gri hezagonal grid system. 
 
-Additional details about the project can be accessed 
-
-
 ## 1.3 Author Information
-A. Principal Investigators 
-- Name: Stepan Prikazchikov, Roger Marin de Yzaguirre, Yaying Hao, Jaee Naik 
+A. Investigator 
+- Name: Stepan Prikazchikov
 - Institution: TU Delft Faculty of Architecture & the Built Environment
 - Address: Julianalaan 134, 2628 BZ Delft
+- Email: s.a.prikazchikov@student.tudelft.nl
+
+B. Investigator 
+- Name: Roger Marin de Yzaguirre
+- Institution: TU Delft Faculty of Architecture & the Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: r.marindeyzaguirre@student.tudelft.nl
+
+C. Investigator 
+- Name: Yaying Hao
+- Institution: TU Delft Faculty of Architecture & the Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: y.hao-3@student.tudelft.nl
+
+D. Investigator 
+- Name: Jaee Naik
+- Institution: TU Delft Faculty of Architecture & the Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: jnaik@tudelft.nl
+
+E. Associated study personnel (Tutor)
+- Name: Daniele Cannatella
+Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+Address: Julianalaan 134, 2628 BZ Delft
+Email: d.cannatella@tudelft.nl
+
+F. Associated study personnel (Tutor)
+- Name: Claudiu Forgaci
+Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+Address: Julianalaan 134, 2628 BZ Delft
+Email: c.forgaci@tudelft.nl
+
+G. Associated study personnel (Tutor)
+- Name: Yehan Wu
+Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+Address: Julianalaan 134, 2628 BZ Delft
+Email: Y.Wu-13@tudelft.nl
 
 ## 1.4 Dates of data collection
-- Survey : 2025-05-01
+Primary data processing: May 2025 to June 2025
+OSM Data Sources: Latest available as of May 2025
+NDVI satellite data, Flooding Data: May 2025 [Copernicus](https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-2) 
+Population Date: May 2024 [WorldPop Hub](https://hub.worldpop.org/)
+Landcover Data: May 2025 [ESA-Worldcover](https://esa-worldcover.org/en)
 
 ## 1.5 Geographic location of data collection
-Delft, Netherlands
+Poznań, Poland
 
 ## 1.6 Keywords
-Urban Stream Restoration, Urban rivers, River integration
+Urban Stream Restoration, Urban rivers, River integration, Multi-criteria analysis, GIS
 
 ## 1.7 Language
 English
