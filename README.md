@@ -175,16 +175,16 @@ The geopackage contains a single spatial layer with all metrics as attributes.
 
 ## 4.1 Enriching Biodiversity Metrics
 
-### 4.1.1 EB_aggregated.gpkg
-Number of variables: 6
-
-_Variable List:_
-
 **"fid"**
 - Full name: Grid Cell Identifier
 - Description: Unique identifier for each 500m hexagonal grid cell
 - Type of variable: Integer
 - Unit of measurement: ID number
+  
+### 4.1.1 EB_aggregated.gpkg
+Number of variables: 5
+
+_Variable List:_
 
 **"EB_vegetation_health_index_norm"** 
 - Full name: Healthy Vegetation Density
@@ -210,51 +210,165 @@ _Variable List:_
 - Calculation: Give biodiversity value --> add biodiversity values of overlapping shapes together --> Erase duplicate geometry --> use only higher biodiversity value --> Multiply max biodiversity value with the area --> Add Biodiversity values from same hex --> Normalization
 - Source: OSM Data
 
-   **""** 
+   **"EB_industry_nuisance_norm"** 
 - Full name: Nuisance from Industries
 - Description: Industries in general cause nuisance (noise, pollution, odor, etc) which hinder biodiversity development
-- Type of variable: Integer
-- Unit of measurement: ID number
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: Landuse Map sorted only the industries --> Join Attributes by field value--> Amount of industries assigned per grid --> Normalization
+- Source: OSM Data
 
-   **""** 
+   **"EB_road_nuisance_norm"** 
 - Full name: Nuisance from Urban Barriers
 - Description: Roads with a high maxspeed become dangerous urban barriers preventing animals from migrating and thus hindering the biodiversity
-- Type of variable: Integer
-- Unit of measurement: ID number
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: road data --> Threshold: maxspeed >= 40km/h --> Intersection --> Sum of length in each cell --> Normalization
+- Source: OSM Data
 
 4. Specialised formats or other abbreviations used: N/A
 
 5. Total file size: 344 KB
 
 ## 4.2 Promote Climate Adaptation
-...
 
-## 4.3 Improve Quality of Life
-...
+**"fid"**
+- Full name: Grid Cell Identifier
+- Description: Unique identifier for each 500m hexagonal grid cell
+- Type of variable: Integer
+- Unit of measurement: ID number
+  
+### CA_aggregated.gpkg
+Number of variables: 4
 
+_Variable List:_
+
+**"CA_flood_risk_norm"** 
+- Full name: Risk of Flooding
+- Description: There have been major floodings in Poznan during the last few years, and the areas with higher flooding risk are more in need of interventions that promote climate adaptations
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: flooding depth map --> subtract permenant waterbody --> Zonal Statistics --> Sum --> Normalization
+- Source: EFAS
+
+  **"CA_impermeability_norm"** 
+- Full name: Density of Impermeable Surfaces
+- Description: The areas with more amounts of impermeable surfaces are more vulnerable against flooding during future extreme rainfalls
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: Landcover --> Zonal Statistics --> Sum --> Normalization
+- Source: ESA-Worldcover
+  
+   **"CA_heat_risk_norm"** 
+- Full name: Heat Risk Index
+- Description: The areas with more hot nights and more severe urban heat island effect (UHI) are more vulnerable towards future extreme climate, thus more in need of interventions promoting climate adaptation
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: 
+- Source: 
+
+   **"CA_river_sinuosity_norm"** 
+- Full name: River Sinuosity
+- Description: The higher sinuosity of a stream indicate that it is in a more natural form and helps to diverse flows and habitats, while the straighter streams need interventions that restore it into a more natural shape
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: 
+- Source: OSM Data
+
+4. Specialised formats or other abbreviations used: N/A
+
+5. Total file size: 324 KB
+
+## 4.3 Improve Quality of Life 
+
+**"fid"**
+- Full name: Grid Cell Identifier
+- Description: Unique identifier for each 500m hexagonal grid cell
+- Type of variable: Integer
+- Unit of measurement: ID number
+
+### RQ3_aggregated.gpkg
+Number of variables: 6
+
+_Variable List:_
+
+**"LQ_resinumb_norm"** 
+- Full name: Residents Number
+- Description: The areas with larger numbers of residents see bigger possibility of an active urban life with community-oriented interventions carried out along the streams
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: 
+- Source: WorldPop Hub
+
+  **"LQ_urbandens_norm"** 
+- Full name: Urbanized Land Use Density
+- Description: The urbanized land use along the streams provide legislative and administrative base for community-oriented interventions
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: 
+- Source: OSM Data
+  
+   **"LQ_peopattr_norm"** 
+- Full name: People Attraction Density
+- Description: If the area already contains some attractions for people, it has a good base to become a more active space in the future
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation:
+- Source: OSM Data
+
+   **"LQ_localcentr_norm"** 
+- Full name: Local Centrality Index
+- Description: This index is calculated through local integration analysis, which shows where the most vital local centers are and the areas with higher local centrality will be more suitable for community-oriented interventions
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: 
+- Source: OSM Data
+
+  **"LQ_pubtranaccess_norm"** 
+- Full name: Public Transport Accessibility
+- Description: The areas that are more accessible via public transport are more suitable for life-quality-improving interventions
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: 
+- Source: OSM Data
+
+   **"LQ_attrbetw_norm"** 
+- Full name: Pedestrian Accessibility Index
+- Description: The attraction betweenness analysis shows which roads are more frequently chosen leading to certain attractions (in this case streams), and the high value in this analysis indicates that the stream in those areas are more accessible for pedestrians, thus more suitable for community-oriented solutions
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: 
+- Source: OSM Data
+
+4. Specialised formats or other abbreviations used: N/A
+
+5. Total file size: 340 KB
+
+**Total number of variables: 16 (1 ID + 5 biodiversity + 4 quality of life + 6 climate adaptation)**
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:
-...
+CC BY-SA 4.0
 
 ## 5.2 Links to other resources:
+To be updated upon publication
 
 ### 5.2.1 Links to publications that cite or use the data:
-...
+To be determined
 
 ### 5.2.2 Links to other publicly accessible locations of the data: 
-...
+N/A
 
 ### 5.2.3 Links/relationships to ancillary data sets: 
-...
+N/A
 
 ### 5.2.4 Links to publicly accessible scripts for analysis of the dataset:
-- [Link title](link url)
+- [Urban Stream Restoration: building a more resilient urban environmental system- Case of Poznań, Poland](https://github.com/sdgis-edu-tud/report-asa2025-groupb.git)
 
 ### 5.2.5 Was data derived from another source?
-Yes/No
+Yes
 
 ## 5.3 Recommended citation for this dataset:
-...
+Naik, J., Hao, Y., Prikazchikov, S., & Yzaguirr, R. M. D. (2025). Urban stream restoration: Building a more resilient urban environmental system- case of Poznań, Poland. Delft University of Technology. https://github.com/sdgis-edu-tud/report-asa2025-groupb.git
 
 This README.md file template was generated on 2022-04-19 by Claudiu Forgaci and Adele Therias according to the 4TU.ResearchData [Guidelines for creating a README file](https://data.4tu.nl/info/en/use/publish-cite/upload-your-data-in-our-data-repository) and the Cornell University template [Guide to writing "readme" style metadata](https://cornell.app.box.com/v/ReadmeTemplate) and is licensed under CC BY 4.0
