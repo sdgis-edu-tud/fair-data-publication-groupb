@@ -344,7 +344,6 @@ _Variable List:_
 
 5. Total file size: 340 KB
 
-**Total number of variables: 16 (1 ID + 5 biodiversity + 4 quality of life + 6 climate adaptation)**
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:
