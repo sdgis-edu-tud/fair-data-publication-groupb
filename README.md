@@ -28,8 +28,12 @@
 Urban Stream Restoration: building a more resilient urban environmental system - Case of Poznań, Poland.
 
 ## 1.2 Dataset description
-In this course, we explored urban stream restoration in Poznań, Poland, using two primary methodological approaches: Multi-Criteria Decision Analysis (MCDA) and Typology Construction. For each method, we identified relevant objectives and formulated research questions tailored to the respective analytical framework.
-Additional details about the project can be accessed [here](https://...).
+The research project was carried out as part of the MSc Urbanism elective course *Applied Spatial Analytics for Sustainable Urban Development* (ARFW0501) at TU Delft. This course is based on the ReBioClim project, an initiative funded by the Interreg Central Europe Program. ReBioClim aims to revitalize small urban streams across European cities to promote biodiversity, address the impacts of climate change, and enhance urban quality of life. The project focuses on stream restoration efforts in four Central European cities: Dresden, Jablonec nad Nisou, Poznań, and Senica.The dataset used in this study is based on the case of **Poznań**. Additional details about the ReBioClim project can be accessed [here](https://www.interreg-central.eu/projects/rebioclim/)
+
+In this course, we explored urban stream restoration in Poznań, Poland, using two primary methodological approaches: Multi-Criteria Decision Analysis (MCDA) and Typology Construction. For each method, we identified relevant objectives and formulated research questions tailored to the respective analytical framework. This dataset contains quantitative spatial data on biodiversity, quality of life, and climate adaptation metrics for Poznań, organised in a 500m gri hezagonal grid system. 
+
+Additional details about the project can be accessed 
+
 
 ## 1.3 Author Information
 A. Principal Investigators 
