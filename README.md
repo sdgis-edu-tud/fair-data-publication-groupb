@@ -109,7 +109,11 @@ Each of these objectives corresponds to a specific research question that guides
 This paper explores the logic behind such weight assignment, arguing that the formulation of the research question should guide both the selection of indicators and the emphasis placed on them.
 
 ### 2.1.1 Research questions (MCDA): 
-Which areas which are most in need of intervention through integrated interventions that enhance biodiversity, support climate adaptation, and improve neighborhood quality of life?
+Which areas which are most in need of intervention through integrated interventions that enhance biodiversity, support climate adaptation, and improve neighborhood quality of life?  
+-Subresearch Question: 
+Which areas have a low ecological value and are in need of restoration to enrich the biodiversity?  
+Which areas are most in need of interventions to promote climate adaptation?  
+Which areas are most in need of neighborhood-oriented interventions that improve the quality of life of local residents?
 
 ### 2.1.2 Research questions (Typology Construction): 
 Which locations both need and are ready for restoration interventions to maximize impact and feasibility?
