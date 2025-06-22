@@ -176,14 +176,49 @@ The geopackage contains a single spatial layer with all metrics as attributes.
 ## 4.1 Enriching Biodiversity Metrics
 
 ### 4.1.1 EB_aggregated.gpkg
-Number of variables: 5
-
+Number of variables: 6
 
 _Variable List:_
 
-"fid"
+**"fid"**
 - Full name: Grid Cell Identifier
 - Description: Unique identifier for each 500m hexagonal grid cell
+- Type of variable: Integer
+- Unit of measurement: ID number
+
+**"EB_vegetation_health_index_norm"** 
+- Full name: Healthy Vegetation Density
+- Description: The areas with the most active photosynthesis process have a better vegetation health condition for enriching biodiversity
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: NDVI --> Threshold > 0.2 --> Zonal Statistics --> Mean --> Normalization
+- Source: Copernicus Sentinel 2
+
+  **"EB_natural_landuse_density_norm"** 
+- Full name: Natural Land Use Density
+- Description: The natural land use along the streams provide legislative and administrative base for nature-based interventions and also indicates a more natural environment
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: Landuse Map--> Assigning All Green a Single Category > Join Attributes by field value--> Areas per grid assigned to each grid --> Normalization
+- Source: OSM Data
+  
+   **"EB_species_richness_norm"** 
+- Full name: Species Richness
+- Description: The different types of natural land use indicate different degree of species richness which provides different condition for interventions aiming for enriching biodiversity, for example forests imply higher biodiversity and farmlands lower
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: Give biodiversity value --> add biodiversity values of overlapping shapes together --> Erase duplicate geometry --> use only higher biodiversity value --> Multiply max biodiversity value with the area --> Add Biodiversity values from same hex --> Normalization
+- Source: OSM Data
+
+   **""** 
+- Full name: Nuisance from Industries
+- Description: Industries in general cause nuisance (noise, pollution, odor, etc) which hinder biodiversity development
+- Type of variable: Integer
+- Unit of measurement: ID number
+
+   **""** 
+- Full name: Nuisance from Urban Barriers
+- Description: Roads with a high maxspeed become dangerous urban barriers preventing animals from migrating and thus hindering the biodiversity
 - Type of variable: Integer
 - Unit of measurement: ID number
 
