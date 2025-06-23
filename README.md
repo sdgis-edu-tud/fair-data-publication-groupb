@@ -159,11 +159,12 @@ Discussed variables: **Channel morphology, Sinuosity, Floodplain width, Open wat
 Single versions of the dataset.
 
 ## 3.1 File List
-"UPDATE FILE NAME.gpkg":  
+_"synthetic_MCDA_map.gpkg"_:  
 This file contains Normalized Data on Biodiversity, Climate Adaptation & Quality of Life Along the streams in Poznań
+The file also contains Aggregated Data for each category.
 
 ## 3.2 Relationship between files:
-The geopackage contains a single spatial layer with all metrics as attributes.
+The geopackage contains a single spatial layer with all variables as attributes.
 
 ## 3.3 File formats and naming conventions
 ### 3.3.1 File formats
@@ -185,7 +186,7 @@ The geopackage contains a single spatial layer with all metrics as attributes.
 - Type of variable: Integer
 - Unit of measurement: ID number
   
-### EB_aggregated.gpkg
+### Variables in synthetic_MCDA_map.gpkg
 Number of variables: 5
 
 _Variable List:_
@@ -242,7 +243,7 @@ _Variable List:_
 - Type of variable: Integer
 - Unit of measurement: ID number
   
-### CA_aggregated.gpkg
+### Variables in synthetic_MCDA_map.gpkg
 Number of variables: 4
 
 _Variable List:_
@@ -291,7 +292,7 @@ _Variable List:_
 - Type of variable: Integer
 - Unit of measurement: ID number
 
-### RQ3_aggregated.gpkg
+### Variables in synthetic_MCDA_map.gpkg
 Number of variables: 6
 
 _Variable List:_
@@ -349,6 +350,8 @@ _Variable List:_
 5. Total file size: 340 KB
 
 ## 4.4 Typology Analysis
+### Additional Variables in synthetic_MCDA_map.gpkg
+Number of derived variables: 1 (_@stephan to confirm_ )
 _@stephan to update_ 
 
 # 5. SHARING/ACCESS INFORMATION
@@ -368,7 +371,7 @@ N/A
 N/A
 
 ### 5.2.4 Links to publicly accessible scripts for analysis of the dataset:
-- [Urban Stream Restoration: building a more resilient urban environmental system- Case of Poznań, Poland](https://github.com/sdgis-edu-tud/report-asa2025-groupb.git)
+- [Urban Stream Restoration: building a more resilient urban environmental system- Case of Poznań, Poland](files/synthetic_MCDA_map.gpkg)
 
 ### 5.2.5 Was data derived from another source?
 Yes
