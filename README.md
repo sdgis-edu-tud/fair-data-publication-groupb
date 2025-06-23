@@ -30,7 +30,7 @@ Urban Stream Restoration: building a more resilient urban environmental system -
 ## 1.2 Dataset description
 The research project was carried out as part of the MSc Urbanism elective course *Applied Spatial Analytics for Sustainable Urban Development* (ARFW0501) at TU Delft. This course is based on the ReBioClim project, an initiative funded by the Interreg Central Europe Program. ReBioClim aims to revitalize small urban streams across European cities to promote biodiversity, address the impacts of climate change, and enhance urban quality of life. The project focuses on stream restoration efforts in four Central European cities: Dresden, Jablonec nad Nisou, Poznań, and Senica.The dataset used in this study is based on the case of **Poznań**. Additional details about the ReBioClim project can be accessed [here](https://www.interreg-central.eu/projects/rebioclim/)
 
-In this course, we explored urban stream restoration in Poznań, Poland, using two primary methodological approaches: Multi-Criteria Decision Analysis (MCDA) and Typology Construction. For each method, we identified relevant objectives and formulated research questions tailored to the respective analytical framework. This dataset contains quantitative spatial data on biodiversity, quality of life, and climate adaptation metrics for Poznań, organised in a 500m gri hezagonal grid system. 
+In this course, we explored urban stream restoration in Poznań, Poland, using two primary methodological approaches: Multi-Criteria Decision Analysis (MCDA) and Typology Construction. For each method, we identified relevant objectives and formulated research questions tailored to the respective analytical framework. This dataset contains quantitative spatial data on biodiversity, quality of life, and climate adaptation metrics for Poznań, organised in a 500m hexagonal grid system. 
 
 ## 1.3 Author Information
 A. Investigator 
@@ -59,21 +59,21 @@ D. Investigator
 
 E. Associated study personnel (Tutor)
 - Name: Daniele Cannatella
-Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
-Address: Julianalaan 134, 2628 BZ Delft
-Email: d.cannatella@tudelft.nl
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: d.cannatella@tudelft.nl
 
 F. Associated study personnel (Tutor)
 - Name: Claudiu Forgaci
-Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
-Address: Julianalaan 134, 2628 BZ Delft
-Email: c.forgaci@tudelft.nl
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: c.forgaci@tudelft.nl
 
 G. Associated study personnel (Tutor)
 - Name: Yehan Wu
-Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
-Address: Julianalaan 134, 2628 BZ Delft
-Email: Y.Wu-13@tudelft.nl
+- Institution: Delft University of Technology, Faculty of Architecture & The Built Environment
+- Address: Julianalaan 134, 2628 BZ Delft
+- Email: Y.Wu-13@tudelft.nl
 
 ## 1.4 Dates of data collection
 - Primary data processing: May 2025 to June 2025
@@ -153,9 +153,8 @@ In the context of our study on urban stream restoration in Poznań, the principa
 Single versions of the dataset.
 
 ## 3.1 File List
-
-### 3.1.1 Primary Data
-- "(update file name)": Geopackage containing 500m hexagonal grid with all Normalized Data on Biodiversity, Climate Adaptation & Quality of Life metrics
+"UPDATE FILE NAME.gpkg":  
+This file contains Normalized Data on Biodiversity, Climate Adaptation & Quality of Life Along the streams in Poznań
 
 ## 3.2 Relationship between files:
 The geopackage contains a single spatial layer with all metrics as attributes.
@@ -168,8 +167,7 @@ The geopackage contains a single spatial layer with all metrics as attributes.
 - files named lower case, spaces replaced with dashes (dash-case)
 - Variable names use descriptive prefixes
 
-# 4. DATA-SPECIFIC INFORMATION
-
+# 4. DATA-SPECIFIC INFORMATION  
 - Missing data code: NA
 - Not Applicable: N/A
 
@@ -181,7 +179,7 @@ The geopackage contains a single spatial layer with all metrics as attributes.
 - Type of variable: Integer
 - Unit of measurement: ID number
   
-### 4.1.1 EB_aggregated.gpkg
+### EB_aggregated.gpkg
 Number of variables: 5
 
 _Variable List:_
