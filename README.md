@@ -143,6 +143,12 @@ The evaluation culminates in the development of a synthetic map for each researc
 
 In the context of our study on urban stream restoration in Poznań, the principal objective is to enhance the resilience of the urban environmental system. In this study, resilience is conceptualized through three key dimensions: **Enhancing Biodiversity**, **Promoting Climate Adaptation** and **Improving Quality of Life**. Each of these dimensions is formulated as a distinct research question
 
+**Typology Construction and Fields-** 
+Typology Construction is a method used to classify areas or elements based on shared combinations of characteristics. In the context of urban stream restoration, our aim in applying this method is to incorporate variables from multiple domains, such as ecological, social, and morphological, into a clustering process that reveals distinct area types. By identifying the defining features of each cluster, we can better determine which types of restoration strategies are most suitable for each group.
+
+Two key components must be defined for this method. The first is the spatial unit: we adopt the same unit used in the MCDA process, which is hexagonal grids with a diameter of 500 meters, applied along streams with a 300 meter buffer zone. The second is the set of relevant variables,which are selected from key indicators used in the MCDA analysis and categorized to effectively represent the characteristics of each domain.
+
+Discussed variables: **Channel morphology, Sinuosity, Floodplain width, Open water surface, Land use cover, Impervious surfaces, Vegetation, Green space connectivity, Mobility, Slow mobility accessibility, Building morphology, Floor area ratio**
 
 ## 2.3 Instrument- or software-specific information
 -  QGIS was used to map and analyze spatial datasets (version 3.34.12)
@@ -342,6 +348,8 @@ _Variable List:_
 
 5. Total file size: 340 KB
 
+## 4.4 Typology Analysis
+_@stephan to update_ 
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:
