@@ -351,8 +351,15 @@ _Variable List:_
 
 ## 4.4 Typology Analysis
 ### Additional Variables in synthetic_MCDA_map.gpkg
-Number of derived variables: 1 (_@stephan to confirm_ )
-_@stephan to update_ 
+Number of derived variables: 1 
+
+Heat Risk (hr)
+- Full name: Pedestrian Accessibility Index
+- Description: The attraction betweenness analysis shows which roads are more frequently chosen leading to certain attractions (in this case streams), and the high value in this analysis indicates that the stream in those areas are more accessible for pedestrians, thus more suitable for community-oriented solutions
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: 0-1 (low to high)
+- Calculation: 
+- Source: OSM Data
 
 # 5. SHARING/ACCESS INFORMATION
 ## 5.1 Licenses/restrictions placed on the data:
