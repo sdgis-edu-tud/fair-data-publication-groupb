@@ -353,12 +353,11 @@ _Variable List:_
 ### Additional Variables in synthetic_MCDA_map.gpkg
 Number of derived variables: 1 
 
-Heat Risk (hr)
-- Full name: Pedestrian Accessibility Index
-- Description: The attraction betweenness analysis shows which roads are more frequently chosen leading to certain attractions (in this case streams), and the high value in this analysis indicates that the stream in those areas are more accessible for pedestrians, thus more suitable for community-oriented solutions
-- Type of variable: Continuous (0-1 normalized)
-- Unit of measurement: 0-1 (low to high)
-- Calculation: 
+**"UHI_MAX_norm"** 
+- Full name: Heat Risk 
+- Description: Reflects exposure to urban heat islands and ecologica thermal stress
+- Type of variable: Standardized
+- Unit of measurement: -1.030 to 1.446 (low to high)
 - Source: OSM Data
 
 # 5. SHARING/ACCESS INFORMATION
@@ -384,6 +383,6 @@ N/A
 Yes
 
 ## 5.3 Recommended citation for this dataset:
-Naik, J., Hao, Y., Prikazchikov, S., & Yzaguirr, R. M. D. (2025). Urban stream restoration: Building a more resilient urban environmental system- case of Poznań, Poland. Delft University of Technology. https://github.com/sdgis-edu-tud/report-asa2025-groupb.git
+Naik, J., Hao, Y., Prikazchikov, S., & Yzaguirr, R. M. D. (2025). Urban stream restoration: Building a more resilient urban environmental system- case of Poznań, Poland. Delft University of Technology. 10.4121/6e37c82b-e9a6-4b97-8e2b-3c23bcff6fd8
 
 This README.md file template was generated on 2022-04-19 by Claudiu Forgaci and Adele Therias according to the 4TU.ResearchData [Guidelines for creating a README file](https://data.4tu.nl/info/en/use/publish-cite/upload-your-data-in-our-data-repository) and the Cornell University template [Guide to writing "readme" style metadata](https://cornell.app.box.com/v/ReadmeTemplate) and is licensed under CC BY 4.0
